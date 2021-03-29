@@ -37,6 +37,7 @@ public class MavenWrapperDownloader {
     /**
      * Path where the maven-wrapper.jar will be saved to.
      */
+
     private static final String MAVEN_WRAPPER_JAR_PATH =
             ".mvn/wrapper/maven-wrapper.jar";
 
@@ -54,6 +55,7 @@ public class MavenWrapperDownloader {
         // wrapperUrl parameter.
         File mavenWrapperPropertyFile = new File(baseDirectory, MAVEN_WRAPPER_PROPERTIES_PATH);
         String url = DEFAULT_DOWNLOAD_URL;
+
         if(mavenWrapperPropertyFile.exists()) {
             FileInputStream mavenWrapperPropertyFileInputStream = null;
             try {
